@@ -10,7 +10,7 @@ import os
 import sys
 import argparse
 import numpy as np
-from InceptionResNetV2 import *
+from models.InceptionResNetV2 import *
 from sklearn.mixture import GaussianMixture
 import dataloader_webvision as dataloader
 import torchnet
